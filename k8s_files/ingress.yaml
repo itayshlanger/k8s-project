@@ -1,0 +1,39 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nginx-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: dogbreed.local
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: main-page
+            port:
+              number: 80
+      - path: /goldenretriever
+        pathType: Prefix
+        backend:
+          service:
+            name: golden-retiever
+            port:
+              number: 80
+      - path: /germanshepherd
+        pathType: Prefix
+        backend:
+          service:
+            name: german-shepard
+            port:
+              number: 80
+      - path: /pug
+        pathType: Prefix
+        backend:
+          service:
+            name: pug
+            port:
+              number: 80
