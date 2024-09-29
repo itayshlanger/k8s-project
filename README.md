@@ -9,8 +9,8 @@ This project demonstrates my understanding of Kubernetes (K8s), database integra
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Architecture](#architecture)
-- [Monitoring](#monitoring)
-- [License](#license)
+- [Usage](#usage)
+- [Pictures](#Pictures)
 
 ## Features
 
