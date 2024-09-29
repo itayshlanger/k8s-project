@@ -43,7 +43,10 @@ data:
         id SERIAL PRIMARY KEY,
         name VARCHAR(100),
         age INT,
-        location VARCHAR(100)
+        location VARCHAR(100),
+        work VARCHAR(100),
+        gender VARCHAR(100)
+
     );
 ---
 apiVersion: v1

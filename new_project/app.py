@@ -22,10 +22,12 @@ def submit():
     name = request.form['name']
     age = request.form['age']
     location = request.form['location']
+    work = request.form['work']
+    gender = request.form['gender']
     
     conn = get_db_connection()
     cur = conn.cursor()
-    cur.execute('INSERT INTO responses (name, age, location) VALUES (%s, %s, %s)', (name, age, location))
+    cur.execute('INSERT INTO responses (name, age, location, work, gender) VALUES (%s, %s, %s, %s, %s)', (name, age, location, work, gender))
     conn.commit()
     cur.close()
     conn.close()
