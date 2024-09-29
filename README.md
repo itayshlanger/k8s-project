@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates my understanding of Kubernetes (K8s), database integration, monitoring, and Python development by deploying a Flask application on Minikube. The application features a user-friendly survey interface that collects user responses and stores them in a database. Additionally, it utilizes Prometheus and Grafana to visualize and monitor metrics derived from the survey data.
+This project demonstrates my understanding of Kubernetes (K8s), database integration, monitoring, and Python development by deploying a Flask application on Minikube. The application features a survey interface that collects user responses and stores them in a database. Additionally, it utilizes Prometheus and Grafana to visualize and monitor metrics derived from the survey data.
 
 ## Table of Contents
 
