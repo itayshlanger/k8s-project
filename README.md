@@ -9,8 +9,6 @@ This project demonstrates my understanding of Kubernetes (K8s), database integra
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Architecture](#architecture)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
 - [Monitoring](#monitoring)
 - [License](#license)
 
@@ -63,4 +61,16 @@ This project demonstrates my understanding of Kubernetes (K8s), database integra
 +-----------------+
 
 ```
+## Usage
+after creating the docker image (Dockerfile in docker_files folder) setting up k8s (Applying the yaml files in k8s_files)
+1) We will open our survey app in the http://survey.local/ (as stated in ingress.yaml)
+2) fill out form
+3) data will be sent to data base
+4) we will open our dashboard on http://grafana.local/ (as stated in ingress.yaml)
+5) look at info we get , add more panel to your liking
 
+## Pictures
+1) survey
+   ![image](https://github.com/user-attachments/assets/f75d047b-5b85-4fd5-a1fa-59852a9c97c0)
+2) dashboards
+   ![image](https://github.com/user-attachments/assets/b4125bac-6ea1-467b-96aa-3cbe4a1fc6d9)
