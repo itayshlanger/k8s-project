@@ -70,7 +70,11 @@ after creating the docker image (Dockerfile in docker_files folder) setting up k
 5) look at info we get , add more panel to your liking
 
 ## Pictures
+
 1) survey
+
    ![image](https://github.com/user-attachments/assets/f75d047b-5b85-4fd5-a1fa-59852a9c97c0)
-2) dashboards
+
+3) dashboards
+
    ![image](https://github.com/user-attachments/assets/b4125bac-6ea1-467b-96aa-3cbe4a1fc6d9)
